@@ -1,6 +1,7 @@
 import databases
 import sqlalchemy
-from config import config
+
+from socialmedia_api.config import config  # This line run config.py
 
 # Metadata to store info about our tables and columns
 metadata = sqlalchemy.Metadata()
